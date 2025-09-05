@@ -1,4 +1,4 @@
-sudo apt update
+sudo apt update -y
 sudo apt install vsftpd -y
 sudo systemctl enable vsftpd
 sudo systemctl start vsftpd
